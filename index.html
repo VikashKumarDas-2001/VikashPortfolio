@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/d74ad6ff5f.js" crossorigin="anonymous"></script>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Vikash - Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            *{
+              margin: 0;
+              padding: 0;  
+            }
+            body{
+                background-color: rgb(0, 0, 33 );
+                color: white;
+                font-family: "Poppins", sans-serif;
+
+            }
+            nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center ;
+                height: 80px;
+                background-color: rgb(18, 18, 62 );
+            }
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li {
+                list-style: none ;
+                margin: 0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li a:hover{
+                color: rgb(153, 153, 226);
+                font-size: 1.01rem;
+
+            }
+            main hr{
+                border: 0;
+                background: #9c97f1;
+                height: 1.2px;
+                margin: 70px 84px;
+            }
+            .left{
+                font-size: 1.5rem;
+            }
+            .firstSection{
+                display: flex;
+                justify-content: space-around ;
+                align-items: center;
+                margin: 68px 0;
+            }
+            .firstSection > div{
+                width: 37%;
+
+            }
+            .leftSection{
+                font-size: 3rem;
+             }
+             .leftSection .buttons{
+                padding: 50px 0;
+             }
+             .leftSection .btn{
+                padding: 12px;
+                background: rgb(5, 5, 77);
+                color: white;
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor: pointer;
+                
+             }
+            .rightSection img{
+                width: 72%;
+            }
+            .purple{
+                color: #ff004f;
+            }
+            .text-gray{
+                color: gray;
+            }
+            #element{
+                color: #ff004f;
+
+            }
+            .secondSection{
+                max-width: 80vw;
+                margin: auto;
+                height: 80vh;
+            }
+            .secondSection h1{
+                font-size: 1.9rem;
+
+            }
+            .secondSection .box{
+                background: white;
+                width: 80vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+
+            }
+            .secondSection .vertical{
+                height: 93px;
+                width: 1px;
+                background-color: white;
+                margin: 0 99px;
+            } 
+            .image-top{
+                width: 23px;
+                position: relative;
+                top: -32px;
+                left: -9px;
+
+            }
+            .vertical-titile{
+
+                position: relative;
+                top: 75px;
+                width: 150px;
+                font-size: 14px;
+            }
+
+            .vertical-desc{
+
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+            }
+            footer{
+                background-color: rgb(2, 2, 13);
+            }
+            .footer{
+                display: flex;
+                padding: 23px 122px;
+                justify-content: space-evenly;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .footer > div{
+                width: 300px;
+            }
+            footer .footer-rights{
+                text-align: center;
+                color: gray;
+                padding: 20px 0;
+            }
+            h2  #sp {
+                color: #ff004f;
+}
+
+        </style>
+     </head>
+     <body>
+        <header>
+            <nav>
+                <div class="left"><h2> <span id="sp">V</span>IKASH.</h2></div>
+                
+                <div class="right">
+                    <ul>
+                        <li><a class="nav-link active" href="#header">Home</a></li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#portfilio">Resume</a></li>
+                        <li><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                      </ul>
+                      <i class="bi bi-list mobile-nav-toggle"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="firstSection">
+                 <div class="leftSection">
+                    <div>
+                        Hi, My name is <span class="purple">Vikash</span>
+                    </div>
+                    <div>and I am a passionate</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <a href="Vikash Resume.pdf" class="btn" target="_blank">Download Resume</a>
+                        <a href="https://github.com/VikashKumarDas-2001" class="btn" target="_blank">Visit Github</a>
+                    </div>
+                    
+                </div>
+                <div class="rightSection">
+                    <img src="erage (1).png" alt="">
+                </div>
+
+
+            </section>
+            <hr>
+            <section class="secondSection">
+                 <!-- about -->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="color.png" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-titles">About Me</h1>
+              <p>
+                Hiii! I'm <b>Vikash Kumar Das</b>, a recent graduate with a degree in Master of Computer Application from Cochin University of Science And Technology. I have a strong foundation in Core java,python and problem Solving, which I honed through coursework and hands-on projects like movie streaming website and Face Recognition Attendance System.
+                I'm enthusiastic about the opportunity to grow professionally, and I'm confident in my ability to make meaningful contributions. Let's connect and explore how my skills can contribute to your team!
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('project')">Project</p>
+              </div>
+              <div class="tab-contents active-tabs" id="education">
+                <ul>
+                  <li>
+                    <span>2022-2024</span> <br />
+                    MCA from CUSAT(Kerala).
+                  </li>
+                  <li><span>2019-2022</span><br/>BCA from MAKAUT(West Bengal).</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="skills">
+                <ul>
+                  <li>Core Java</li>
+                  <li>Pyhton</li>
+                  <li>HTML,CSS and javaScript</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                  <li>Web Devlopment</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="project">
+                <ul>
+                  <li>
+                    <span>APNA THEATRE.com - Movie Streaming Website</span> <br />
+                    <b>Technologies:</b>HTML, CSS, Bootstrap, NodeJs, Express.js, MongoDB.
+                  </li>
+                  <li>
+                    <span>Face Recognition Attendance System</span><br /><b>Technologies:</b
+                    >Python, Flask, Jinja2, OpenCV, HTML, CSS, Bootstrap, JavaScript.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Skills -->
+
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-titles">My Skills</h1>
+        <div class="skills-list">
+          <div>
+            <h2>Programming Language</h2>
+            <ul>
+              <li><i class="fa-brands fa-java"> </i> Core Java</li>
+              <li><i class="fa-brands fa-python"> </i> Python</li>
+              <li><i class="fa-brands fa-js"> </i>JavaScript</li>
+            </ul>
+
+            <a href="#">More</a>
+          </div>
+          <div>
+            <h2>Course Work</h2>
+            <ul class="course">
+              <li>Oops</li>
+              <li>MySQL</li>
+              <li>Machine Learning</li>
+            </ul>
+            <a href="#">More</a>
+          </div>
+          <div>
+            <!-- <i class="fa-sharp fa-solid fa-code"></i> -->
+            <h2>Web Development</h2>
+            <ul>
+              <li><i class="fa-brands fa-html5"> </i>HTML5</li>
+              <li><i class="fa-brands fa-css3-alt"></i>CSS</li>
+              <li><i class="fa-brands fa-js"> </i>JavaScript</li>
+            </ul>
+            <a href="#">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-titles">My Project</h1>
+          <div class="project-list">
+            <div class="work">
+              <img src="APNA THEATER.png" alt="" />
+              <div class="layer">
+                <h3>APNA THEATER.com</h3>
+                <p>
+                  Apna Theatre is an exciting and user-friendly movie streaming website that aims to 
+                  provide a comprehensive collection of movies, TV shows, and web series across 
+                  various genres. It offers an alternative to expensive streaming platforms, making 
+                  entertainment accessible to a wider audience.</p>
+                <p> The platform is designed to offer a 
+                  seamless and enjoyable experience for movie enthusiasts, allowing them to watch 
+                  their favourite content at their convenience.</p>
+                  <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="Project.png" alt="" />
+                <div class="layer">
+                  <h3>Face Recognition Based Attendance System</h3>
+                  <p>
+                    Created a system that automatically tracks attendance using face recognition technology. It can identify
+                    people in real-time, making attendance-taking faster and more accurate.Helped achieve a high accuracy rate of 98%
+                    in recognizing faces, saving time and making attendance tracking easier for a university project.</p>
+                  <p>Impact: The system made taking attendance much quicker and more reliable, helping teachers and students save
+                    time and reducing errors.</p>
+                  <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn1">See more</a>
+        </div>
+      </div>
+  
+
+  
+                <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+          <h1 class="sub-titles">Contact Me</h1>
+          <div class="row">
+            <div class="contact-middle">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="#">vikashdas649@gmail.com</a>
+              <p><i class="fa-solid fa-square-phone"></i> +91-8405874061</p>
+              <div class="social-icon">
+                <a href="https://www.linkedin.com/in/vikash-kumar-das-a89b491a5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vikash4u_01/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009336124437" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+              </div>
+              <a href="Vikash Resume.pdf" download class="btn1 btn2"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+          for (tablink of tabLinks) {
+            tablink.classList.remove("active-links");
+          }
+          for (tabcontent of tabContents) {
+            tabcontent.classList.remove("active-tabs");
+          }
+          event.currentTarget.classList.add("active-links");
+          document.getElementById("tabname").classList.add("active-tabs");
+        }
+  
+        //   Animation
+        // var typed = new typed("#element", {
+        //   strings: ["Front-end Developer", "Web Designer", "Coder"],
+        //   typeSpeed: 50,
+        // });
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function closemenu() {
+          sidemenu.style.right = "-200px";
+          document.querySelector(".fas.fa-bars").style.display = "block";
+          document.querySelector(".fas.fa-times").style.display = "none";
+        }
+        function openmenu() {
+          sidemenu.style.right = "0";
+          document.querySelector(".fas.fa-bars").style.display = "none";
+          document.querySelector(".fas.fa-times").style.display = "block";
+        }
+      </script>
+        <!-- <footer>
+            <div class="footer">
+                <div class="first">
+                    <h3>Vikash's Developer Portfolio</h3>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Resume</li>
+                        <li>Portfolio</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; www.vikashsportfolio.com | All right reserved
+            </div>
+
+            
+        </footer> -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer','Software Developer','Web Designer'],
+              typeSpeed: 50,
+            });
+          </script>
+          
+     </body>
+</html>
